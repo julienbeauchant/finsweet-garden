@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-color: #0F2E1F;
 }
 
@@ -54,6 +54,13 @@ nav ul li a {
     border-radius: 20px;
 }
 
+.navLiContact:hover {
+    background-color: #F4FCF4;
+    border: none;
+    transition: 0.2s ease-in-out;
+    color: #0F2E1F;
+}
+
 .mainHeader {
     width: 100%;
     height: 90%;
@@ -66,12 +73,12 @@ nav ul li a {
      width: 80%;
      height: 60%;
      display: flex;
-     justify-content: center;
+     justify-content: space-between;
      align-items: center;
 }
 
 .mainHeaderLeft {
-    width: 50%;
+    width: 40%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -82,14 +89,9 @@ h1 {
     font-size: 3em;
 }
 
-.mainHeaderLeft {
-    width: 40%;
-    height: 100%;
-    display: flex;
-}
 
 .mainHeaderRight {
-    width: 50%;
+    width: 60%;
     height: 100%;
 }
 .mainHeaderRight img {
@@ -117,9 +119,10 @@ h1 {
 }
 
 .enSavoirPlus:hover {
-    background-color: white;
+    background-color: #F4FCF4;
     color:#0F2E1F;
     transition: 0.2s ease-in-out;
+    animation: 3s slidein;
 }
 
 .nousContacter {
@@ -130,6 +133,74 @@ h1 {
     background-color: transparent;
 }
 
+.nousContacter:hover {
+    transform:translateX(10px);
+    transition: 0.2s ease-in-out;
+}
+
 h1 span {
     color: #71FF21;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F4FCF4;
+}
+
+.confianceGlobal {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.confianceGlobalP {
+    width: 10%;
+}
+
+.confianceGlobalP span {
+    color: #247E52;
+}
+
+.confianceGlobalP p,
+.confianceGlobal p {
+    color: black;
+    font-size: 1.5em;
+}
+
+.logos {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1,
+.logo2,
+.logo3,
+.logo4,
+.logo5 {
+    display: flex;
+    align-items: center;
+}
+
+.confianceGlobalImg {
+    width: 100%;
+    height: 80%;
+}
+
+.confianceGlobalImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.p p{
+    color: #0F2E1F;
 }
