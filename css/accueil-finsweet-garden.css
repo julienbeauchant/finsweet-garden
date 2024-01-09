@@ -95,7 +95,7 @@ h1 {
 .mainHeaderRight img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: contain;
 }
 
 .enSavoirPlusContact {
@@ -114,6 +114,12 @@ h1 {
     color: black;
     border-radius: 50px;
     background-color: #71FF21;
+}
+
+.enSavoirPlus:hover {
+    background-color: white;
+    color:#0F2E1F;
+    transition: 0.2s ease-in-out;
 }
 
 .nousContacter {
