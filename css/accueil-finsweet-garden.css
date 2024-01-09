@@ -1,0 +1,129 @@
+header {
+    width: 100%;
+    height: 100%;
+    background-color: #0F2E1F;
+}
+
+.nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.navPosition {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.navLiAccueil a {
+    color: #71FF21;
+}
+
+.navLiContact {
+    width: 35%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #71FF21 solid 2px;
+    border-radius: 20px;
+}
+
+.mainHeader {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainHeaderGlobal {
+     width: 80%;
+     height: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.mainHeaderLeft {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.mainHeaderLeft {
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+
+.mainHeaderRight {
+    width: 50%;
+    height: 100%;
+}
+.mainHeaderRight img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.enSavoirPlusContact {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.enSavoirPlus {
+    width: 40%;
+    height: 40%;
+    font-size: 1em;
+    border: none;
+    color: black;
+    border-radius: 50px;
+    background-color: #71FF21;
+}
+
+.nousContacter {
+    width: 40%;
+    height: 40%;
+    font-size: 1em;
+    border: none;
+    background-color: transparent;
+}
+
+h1 span {
+    color: #71FF21;
+}
